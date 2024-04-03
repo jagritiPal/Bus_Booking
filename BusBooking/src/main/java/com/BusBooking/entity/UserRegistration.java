@@ -19,8 +19,10 @@ public class UserRegistration {
     private String name;
     private String email;
     private String password;
-    @Lob
-    @Column(name= "profile_picture", length = 1024)
-    private byte[] profilePicture;
+    private String userRole;
+
+//    @Lob
+//    @Column(name= "profile_picture", length = 1024)
+//    private byte[] profilePicture;
 
 }
